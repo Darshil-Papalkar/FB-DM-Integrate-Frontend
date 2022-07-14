@@ -1,0 +1,104 @@
+.authPage{
+    background-color: #004E96;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: #fff;
+    width: 90%;
+    max-width: 375px;
+    padding: 1rem 2.5rem 1.5rem;
+    height: max-content;
+    border-radius: 10px;
+}
+
+.register-login-toggle{
+    text-align: center;
+    margin: 1rem auto 0;
+}
+
+.register-login-toggle span{
+    cursor: pointer;
+    color: #004E96;
+}
+
+.form-submit{
+    background-color: #004E96;
+    color: #fff;
+    border: none;
+    padding: .8rem;
+    font-size: 1.1rem;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    border-radius: 3px;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.form-submit a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.form-submit a:hover,
+.form-submit a:visited,
+.form-submit a:active{
+    color: #fff;
+    text-decoration: none;
+}
+
+.delete{
+    background-color: #F34335;
+    margin-bottom: -1rem;
+}
+
+.register-login-checkbox{
+    display: flex;
+}
+
+.register-login-checkbox, 
+.register-login-submit{
+    width: 90%;
+    margin: auto;
+}
+
+.register-login-submit{
+    text-align: center;
+}
+
+/* Components CSS */
+
+.registerpage-title{
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 1rem .5rem;
+}
+
+.registerpage-section{
+    width: 90%;
+    margin: auto
+}
+
+.registerpage-label-field{
+    margin: .8rem auto; 
+}
+
+.label{
+    margin: .2rem auto;
+}
+
+.registerpage-label-field input{
+    width: 100%;
+    height: 2rem;
+    padding: 1rem;
+}
